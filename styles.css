@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Rubik";
+  src: url("Rubik-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("Rubik-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("Rubik-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("Rubik-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  background: linear-gradient(to bottom, #0be2af, #30374e);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.branco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50px;
+  margin-inline: 200px;
+}
+
+.topo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nomePrin {
+  font-family: "Rubik";
+  font-weight: bold;
+  padding-top: 0.4em;
+  margin-right: 900px;
+  font-size: 20px;
+}
+
+.cian {
+  display: inline-block;
+  width: 0.4em;
+  height: 0.5em;
+  background-color: #0be2af;
+  margin-right: 0.2em;
+}
+
+.contatos {
+  font-family: "Rubik";
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  gap: 30px;
+}
+
+#oi {
+  font-family: "Rubik";
+  font-weight: 300;
+  font-size: 40px;
+}
+
+#nomesec {
+  font-family: "Rubik";
+  font-size: 60px;
+}
+
+#dev {
+  font-family: "Rubik";
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+}
+
+.info {
+  font-family: "Rubik";
+  font-weight: 300;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#exp {
+  font-family: "Rubik";
+  margin-top: 30px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.experiencia {
+  background-color: #f4f4f4;
+  border-radius: 50px;
+  border: 2px solid #0be2af;
+  padding: 20px;
+  font-family: "Rubik";
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 40px;
+  line-height: 2;
+}
+
+.floater {
+  background-color: #151515;
+  color: white;
+  font-family: "Rubik";
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding-inline: 200px;
+  padding-bottom: 50px;
+}
+
+.floater h3 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+#contat {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 25px;
+  font-weight: 300;
+  padding: 20px;
+  padding-left: 0px;
+}
+
+.floater span {
+  font-weight: 300;
+  font-size: 20px;
+  padding-top: 30px;
+}
